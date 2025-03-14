@@ -1,50 +1,71 @@
-# React + TypeScript + Vite
+# Brainded Games 🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Brainded Games**! This is a fun and interactive gaming website built using **TypeScript** and various engaging game mechanics to deliver an exciting experience. 🚀
 
-Currently, two official plugins are available:
+🔗 **Live Website:** [Brainded Games](https://braindedgame.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- **10+ Mini-Games** – Play games like 2048, Hand Cricket, Memory Game, and more.
+- **Multiplayer Support** – Challenge your friends in real-time games.
+- **Fast & Responsive** – Optimized for performance across devices.
+- **Built with TypeScript** – Ensures scalability and maintainability.
+- **Hosted on Netlify** – Easy deployment and quick updates.
+- **Open Source** – Contributions are welcome!
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🛠️ Installation & Setup
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/shashanx52/braindedgames.git
+   cd braindedgames
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+4. To build for production:
+   ```sh
+   npm run build
+   ```
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🚀 Deployment
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+This project is deployed on **Netlify**. To deploy manually:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. Build the project (`npm run build`).
+2. Drag and drop the `dist` folder into Netlify for quick hosting.
+3. Or, link the GitHub repository to Netlify for automatic deployment on updates.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 🤝 Contributing
+
+We welcome contributions! To contribute:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```sh
+   git checkout -b feature-name
+   ```
+3. Commit changes and push:
+   ```sh
+   git commit -m "Add new feature"
+   git push origin feature-name
+   ```
+4. Submit a Pull Request.
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+## 📞 Contact
+
+- **Website:** [Brainded Games](https://braindedgame.netlify.app/)
+- **GitHub:** [shashanx52](https://github.com/shashanx52)
+- **Email:** [[your-email@example.com](mailto:your-email@example.com)]
+
+Enjoy playing **Brainded Games**! 🎮🔥
+
