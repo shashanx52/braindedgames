@@ -65,7 +65,7 @@ This project is licensed under the **MIT License**.
 
 - **Website:** [Brainded Games](https://braindedgame.netlify.app/)
 - **GitHub:** [shashanx52](https://github.com/shashanx52)
-- **Email:** [[your-email@example.com](mailto:your-email@example.com)]
+- **Email:** [[shashankjha.0052@gmail.com](mailto:shashankjha.0052@gmail.com)]
 
 Enjoy playing **Brainded Games**! 🎮🔥
 
